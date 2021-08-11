@@ -6,6 +6,11 @@ body {
   font-family: 'Ubuntu', sans-serif;
   background-color: whitesmoke;
 }
+nav ul li {
+  background-color: white;
+  margin-bottom: 5px;
+  text-align: center;
+}
 .portfolio {
   background-color: white;
 }
