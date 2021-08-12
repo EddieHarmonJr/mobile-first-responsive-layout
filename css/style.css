@@ -30,6 +30,10 @@ ul {
 a {
   text-decoration: none;
 }
+a:visited {
+  text-decoration: none;
+  color: black;
+}
 footer {
   border-top: 1px solid grey;
 }
