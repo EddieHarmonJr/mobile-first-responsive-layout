@@ -41,8 +41,17 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-footer {
-  border-top: 1px solid grey;
+.student-section{
+  background-color: whitesmoke;
+  text-align: center;
+}
+.portfolio-section{
+  text-align: center;
+}
+.footer-section {
+  background-color: whitesmoke;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 
