@@ -11,12 +11,20 @@ body {
   padding-left: 1em;
   padding-right: 1em;
 }
-
-nav ul li {
+/* nav ul li {
   background-color: white;
   margin-bottom: 5px;
   padding: 10px;
   text-align: center;
+} */
+ul li {
+  list-style: none;
+  margin-right: -0.3125em;
+  padding-right: 70px;
+  background-color: white;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  padding: 5px;
 }
 .portfolio {
   background-color: white;
@@ -61,7 +69,11 @@ img {
 }
 .back-to-top {
   display: block;
-  float: right;
+  float: right;;
+}
+.student-name-bottom {
+  float: left;
+  width: 50%;
 }
 
 
