@@ -10,6 +10,7 @@ body {
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
+  hyphens: auto;
 }
 /* nav ul li {
   background-color: white;
