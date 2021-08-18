@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: whitesmoke;
+  background-color: white;
 }
 .wrapper {
   text-align: center;
@@ -40,7 +40,7 @@ h3 {
 ul {
   list-style-type: none;
 }
-a {
+a:link {
   text-decoration: none;
 }
 a:visited {
@@ -53,7 +53,7 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.student-section{
+.student-section {
   background-color: whitesmoke;
   text-align: center;
 }
@@ -66,11 +66,19 @@ img {
   padding-bottom: 50px;
   text-align: center;
 }
+.footer-nav {
+  background-color: whitesmoke;
+  border-top: 1px solid lightgray;
+  width: 85%;
+  margin: auto;
+}
 .contact-headline {
   padding-top: 50px;
 }
 .student-name {
-  display: inline-block;
+  display: block;
+  float: left;
+  padding-top: 0.5em;
 }
 .back-to-top {
   display: block;
@@ -125,6 +133,9 @@ img {
   }
   .portfolio-section {
     background-color: white;
+  }
+  .portfolio-header {
+    padding-top: 50px;
   }
   .student-photo {
     float: right;
@@ -234,5 +245,8 @@ img {
   .column {
     margin-right: 1em;
     margin-left: 1em;
+  }
+  .description {
+    margin-bottom: 2em;
   }
 }
