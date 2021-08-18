@@ -182,4 +182,16 @@ img {
   .student-name-top {
     float: left;
   }
+  nav {
+    float: right;
+  }
+  nav ul li {
+    float: left;
+    background-color: whitesmoke;
+  }
+  .student-photo {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
