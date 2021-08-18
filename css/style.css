@@ -194,4 +194,45 @@ img {
     display: table;
     clear: both;
   }
+  .student-bio {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+  .marketing-photo-div,
+  .search-photo-div,
+  .travel-photo-div,
+  .map-photo-div,
+  .gallery-photo-div,
+  .calculator-photo-div {
+    width: 30%;
+    background-color: white;
+  }
+  .marketing-photo-div {
+    float: left;
+  }
+  .search-photo-div {
+    float: left;
+  }
+  .travel-photo-div {
+    float: left;
+  }
+  .map-photo-div {
+    float: left;
+  }
+  .gallery-photo-div {
+    float: left;
+  }
+  .calculator-photo-div {
+    float: left;
+  }
+  .back-to-top {
+    display: none;
+  }
+  .column {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
 }
