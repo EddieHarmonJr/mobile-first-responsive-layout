@@ -17,11 +17,14 @@ body {
   padding: 10px;
   text-align: center;
 } */
+.top-links {
+  background-color: white;
+}
 ul li {
   list-style: none;
   margin-right: -0.3125em;
   padding-right: 70px;
-  background-color: white;
+  /* background-color: white; */
   margin-bottom: 2px;
   margin-right: 10px;
   padding: 5px;
@@ -54,6 +57,7 @@ img {
   text-align: center;
 }
 .portfolio-section{
+  background-color: white;
   text-align: center;
 }
 .footer-section {
