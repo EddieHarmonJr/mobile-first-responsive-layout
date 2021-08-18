@@ -12,6 +12,11 @@ body {
   padding-right: 1em;
   hyphens: auto;
 }
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* nav ul li {
   background-color: white;
   margin-bottom: 5px;
@@ -25,10 +30,13 @@ ul li {
   list-style: none;
   margin-right: -0.3125em;
   padding-right: 70px;
-  /* background-color: white; */
-  margin-bottom: 2px;
+  background-color: white;
+  margin-bottom: 5px;
   margin-right: 10px;
   padding: 5px;
+}
+.navigation {
+  background-color: whitesmoke;
 }
 .portfolio {
   background-color: white;
@@ -109,6 +117,9 @@ img {
 /* @media screen and (min-width: 320px) {
  
 } */
+
+
+/* MEDIA QUERY FOR TABLET */
 
 @media screen and (min-width: 768px) {
   .student-name {
@@ -191,6 +202,8 @@ img {
     display: block;
   }
 }
+
+/* MEDIA QUERY FOR DESKTOP */
 
 @media screen and (min-width: 1024px) {
   .student-name-top {
