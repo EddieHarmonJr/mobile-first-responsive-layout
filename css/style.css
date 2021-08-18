@@ -132,6 +132,11 @@ img {
     max-width: 400px;
     margin-top: 20px;
   }
+  .student-bio {
+    width: 50%;
+    max-width: 400px;
+    margin: 50px 10px 10px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
