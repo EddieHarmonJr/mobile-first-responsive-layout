@@ -137,6 +137,45 @@ img {
     max-width: 400px;
     margin: 50px 10px 10px;
   }
+  .marketing-photo-div,
+  .search-photo-div,
+  .travel-photo-div,
+  .map-photo-div,
+  .gallery-photo-div,
+  .calculator-photo-div {
+    width: 46.5%;
+    min-height: 425px;
+    background-color: white;
+  }
+  .marketing-photo-div {
+    float: left;
+  }
+  .search-photo-div {
+    float: right;
+  }
+  .travel-photo-div {
+    float: left;
+  }
+  .map-photo-div {
+    float: right;
+  }
+  .gallery-photo-div {
+    float: left;
+  }
+  .calculator-photo-div {
+    float: right;
+  }
+  .back-to-top {
+    display: none;
+  }
+  .student-name-bottom {
+    float: left;
+    width: 25%;
+  }
+  .bottom-nav {
+    float: right;
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1024px) {
