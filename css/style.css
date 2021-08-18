@@ -179,5 +179,7 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
-  
+  .student-name-top {
+    float: left;
+  }
 }
