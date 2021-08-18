@@ -88,6 +88,9 @@ img {
   display: table;
   clear: both;
 }
+.bottom-nav {
+  display: none;
+}
 
 
 
