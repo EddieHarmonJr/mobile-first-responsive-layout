@@ -127,6 +127,9 @@ img {
     display: block;
     text-align: center;
   }
+  .top-links {
+    background-color: whitesmoke;
+  }
   .student-section {
     padding: 30px 25px;
     margin-bottom: 50px;
