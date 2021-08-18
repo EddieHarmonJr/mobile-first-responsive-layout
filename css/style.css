@@ -81,9 +81,13 @@ img {
   width: 50%;
 }
 
+/* FLOAT CLEARFIX */
 
-
-
+.group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
