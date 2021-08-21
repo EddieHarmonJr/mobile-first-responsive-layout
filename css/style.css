@@ -76,6 +76,11 @@ img {
 .contact-headline {
   padding-top: 50px;
 }
+
+.bottom-nav {
+  display: none;
+}
+
 /* .student-name {
   display: block;
   float: left;
@@ -97,11 +102,7 @@ img {
   display: table;
   clear: both;
 }
-.bottom-nav {
-  display: none;
-} */
-
-
+ 
 
 /* ================================= 
   Media Queries
