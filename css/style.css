@@ -28,8 +28,11 @@ ul li {
   margin-right: 10px;
   padding: 5px;
 }
+/* gives navigation a column orientation in mobile view */
 .navigation {
   background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
 }
 .portfolio {
   background-color: white;
@@ -76,7 +79,7 @@ img {
 .contact-headline {
   padding-top: 50px;
 }
-
+/* Hides the bottom navigation in mobile view  */
 .bottom-nav {
   display: none;
 }
