@@ -6,7 +6,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   background-color: white;
 }
-.wrapper {
+/* .wrapper {
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
@@ -15,13 +15,6 @@ body {
 .container {
   width: 70%;
   margin: 0 auto;
-}
-
-/* nav ul li {
-  background-color: white;
-  margin-bottom: 5px;
-  padding: 10px;
-  text-align: center;
 } */
 .top-links {
   background-color: white;
@@ -74,16 +67,16 @@ img {
   padding-bottom: 50px;
   text-align: center;
 }
-.footer-nav {
+/* .footer-nav {
   background-color: whitesmoke;
   border-top: 1px solid lightgray;
   width: 85%;
   margin: auto;
-}
+} */
 .contact-headline {
   padding-top: 50px;
 }
-.student-name {
+/* .student-name {
   display: block;
   float: left;
   padding-top: 0.5em;
@@ -95,18 +88,18 @@ img {
 .student-name-bottom {
   float: left;
   width: 50%;
-}
+} */
 
 /* FLOAT CLEARFIX */
 
-.group::after {
+/* .group::after {
   content: "";
   display: table;
   clear: both;
 }
 .bottom-nav {
   display: none;
-}
+} */
 
 
 
@@ -121,7 +114,7 @@ img {
 
 /* MEDIA QUERY FOR TABLET */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .student-name {
     margin: auto;
   }
@@ -201,11 +194,11 @@ img {
     float: right;
     display: block;
   }
-}
+} */
 
 /* MEDIA QUERY FOR DESKTOP */
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .student-name-top {
     float: left;
   }
@@ -265,4 +258,4 @@ img {
   .description {
     margin-bottom: 2em;
   }
-}
+} */
