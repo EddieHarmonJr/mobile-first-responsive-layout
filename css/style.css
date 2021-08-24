@@ -51,6 +51,9 @@ a:visited {
   background-color: whitesmoke;
   padding: 50px;
 }
+.bottom-nav {
+  border-top: 1px solid lightgrey;
+}
 .bottom-links {
   display: none;
 }
