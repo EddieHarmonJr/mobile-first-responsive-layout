@@ -18,6 +18,7 @@ a:visited {
   margin-bottom: 5px;
 }
 .student-section {
+  display: flex;
   background-color: whitesmoke;
 }
 .portfolio-section{
