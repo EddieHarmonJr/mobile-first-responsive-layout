@@ -38,6 +38,15 @@ a:visited {
   flex-grow: 1;
   flex-basis: 200px;
 } */
+.marketing-div,
+.search-div,
+.travel-div,
+.favorites-div,
+.gallery-div,
+.calculator-div {
+  display: flex;
+  flex-direction: column;
+}
 .footer-section {
   background-color: whitesmoke;
   padding: 50px;
