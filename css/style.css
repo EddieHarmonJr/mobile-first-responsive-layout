@@ -1,12 +1,15 @@
 * {
   box-sizing: border-box;
 }
+/* REMOVES BULLET POINTS FROM UNORDERED LIST ITEMS */
 ul {
   list-style-type: none;
 }
+/* REMOVES UNDERLINE FROM LINKS */
 a:link {
   text-decoration: none;
 }
+/* REMOVES COLOR FROM VISITED LINKS */
 a:visited {
   color: black;
 }
