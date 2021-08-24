@@ -13,3 +13,15 @@ a:link {
 a:visited {
   color: black;
 }
+.top-links {
+  background-color: white;
+}
+.student-section {
+  background-color: whitesmoke;
+}
+.portfolio-section{
+  background-color: white;
+}
+.footer-section {
+  background-color: whitesmoke;
+}
