@@ -28,6 +28,10 @@ a:visited {
   margin-right: 16px;
   text-align: center;
 }
+#portfolio,
+#contact {
+  text-align: center;
+}
 .portfolio-section{
   background-color: white;
   display: flex;
@@ -47,8 +51,14 @@ a:visited {
   display: flex;
   flex-direction: column;
 }
+img {
+  margin: 5%;
+}
 p, h2 {
-  border: 4px solid red;
+  /* align-items: center; */
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .footer-section {
   background-color: whitesmoke;
@@ -63,9 +73,15 @@ p, h2 {
 .student-name-bottom, 
 .back-to-top {
   display: inline-block;
-
 }
 
+
+/* .student-name-bottom {
+  text-align: left;
+}
+.back-to-top {
+  text-align: right;
+} */
 
 
 
