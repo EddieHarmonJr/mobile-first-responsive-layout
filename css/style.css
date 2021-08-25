@@ -60,6 +60,11 @@ p, h2 {
 .bottom-links {
   display: none;
 }
+.student-name-bottom, 
+.back-to-top {
+  display: inline-block;
+
+}
 
 
 
