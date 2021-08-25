@@ -127,15 +127,16 @@ p {
 /* ================TABLET====================== */
 
 @media (min-width: 768px) {
-  /* .student-name {
+  .student-name {
     display: inline-block;
-  }
-  .student-section {
-    display: flex;
   }
   .main-nav {
     display: flex;
-  } */
+    flex-direction: row;
+  }
+  .top-links {
+    background-color: whitesmoke;
+  }
   .bottom-links {
     display: inline;
   }
