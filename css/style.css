@@ -137,8 +137,32 @@ p {
   .top-links {
     background-color: whitesmoke;
   }
+  .portfolio-section {
+    display: flex;
+  }
+  .marketing-div,
+  .search-div,
+  .travel-div,
+  .favorites-div,
+  .gallery-div,
+  .calculator-div {
+    width: 50%;
+    /* flex-direction: row;
+    display: inline-block;
+    flex-grow: 1; */
+  }
+  .bottom-nav {
+    display: flex;
+    /* flex-wrap: wrap;
+    justify-content: space-around; */
+  }
+  .student-name-bottom {
+    margin-right: auto;
+  }
   .bottom-links {
     display: inline;
+    padding: 0 10px;
+    /* justify-content: space-around; */
   }
   .back-to-top {
     display: none;
