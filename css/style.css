@@ -127,8 +127,19 @@ p {
 /* ================TABLET====================== */
 
 @media (min-width: 768px) {
+  header {
+    display: flex;
+  }
   .student-name {
     display: inline-block;
+  }
+  /* WHY ISN'T THIS ALLOWING ME TO PLACE THEM SIDE BY SIDE? */
+  .student-photo,
+  .student-intro {
+    /* display: inline-block; */
+  }
+  .student-photo {
+    order: 1;
   }
   .main-nav {
     display: flex;
@@ -139,6 +150,8 @@ p {
   }
   .portfolio-section {
     display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
   }
   .marketing-div,
   .search-div,
@@ -147,8 +160,8 @@ p {
   .gallery-div,
   .calculator-div {
     width: 50%;
-    /* flex-direction: row;
-    display: inline-block;
+    /* IF I HAVE CREATED ENOUGH SPACE FOR A SECOND COLUMN, AND I CHANGE THE DIRECTION TO ROW, WHY DOES IT REMAIN IN COLUMN?  */
+    /* display: inline-block;
     flex-grow: 1; */
   }
   .bottom-nav {
@@ -159,6 +172,7 @@ p {
   .student-name-bottom {
     margin-right: auto;
   }
+  /* WHY DID I HAVE TO MANUALLY CREATE SPACE WITH PADDING AND SPACE-AROUND DID NOT WORK? */
   .bottom-links {
     display: inline;
     padding: 0 10px;
@@ -172,6 +186,25 @@ p {
 
 /* ================DESKTOP===================== */
 
-/* @media (min-width: 1024px) {
+@media (min-width: 1024px) {
+  .student-name,
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .student-name {
+    margin-bottom: 0;
+  }
+  .main-nav {
+    margin-top: 0;
+    /* WHY DOES THIS WORK INCORRECTLY?
+    justify-content: right; */
+  }
 
-} */
+  .student-photo,
+  .student-intro {
+    /* NOTHING I AM ATTEMPTING IS WORKING
+    display: flex;
+    flex-direction: row; */
+  }
+}
