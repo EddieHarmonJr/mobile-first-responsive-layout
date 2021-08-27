@@ -103,6 +103,9 @@ p {
 .back-to-top {
   display: inline-block;
 }
+span {
+  font-weight: bold;
+}
 
 
 
