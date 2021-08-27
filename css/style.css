@@ -64,12 +64,7 @@ nav {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.marketing-div,
-.search-div,
-.travel-div,
-.favorites-div,
-.gallery-div,
-.calculator-div {
+.col {
   display: flex;
   flex-direction: column;
 }
@@ -153,12 +148,7 @@ p {
     /* flex-direction: row; */
     flex-wrap: wrap;
   }
-  .marketing-div,
-  .search-div,
-  .travel-div,
-  .favorites-div,
-  .gallery-div,
-  .calculator-div {
+  .col {
     width: 50%;
     /* IF I HAVE CREATED ENOUGH SPACE FOR A SECOND COLUMN, AND I CHANGE THE DIRECTION TO ROW, WHY DOES IT REMAIN IN COLUMN?  */
     /* display: inline-block;
