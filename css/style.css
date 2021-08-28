@@ -16,41 +16,43 @@ a:link {
 a:visited {
   color: black;
 }
-.student-section {
+.student-section,
+.intro {
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
 }
 .student-name {
-  text-align: center;
-}
-header {
   display: flex;
   flex-direction: column;
-  margin-bottom: 25px;
+  text-align: center;
 }
+
 .student-photo {
-  width: 50%;
+  width: 55%;
   margin: auto;
 }
 .student-intro {
   margin-top: 25px;
+  margin-bottom: 50px;
 }
 nav {
   margin-bottom: 25px;
 }
-.main-nav {
+.main-nav, 
+header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0;
+  background-color: whitesmoke;
 }
-.top-links {
+.main-nav ul li {
   background-color: white;
   padding: 10px;
   margin-bottom: 5px;
-  margin-right: 16px;
-  margin-left: 16px;
+  margin-right: 25px;
+  /* margin-left: 16px; */
   text-align: center;
 }
 #portfolio,
@@ -79,11 +81,12 @@ p, h3 {
 p {
   margin-top: 0px;
 }
-.footer-section {
+.contact, 
+footer {
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
-  padding: 50px 25px;
+  padding-top: 50px;
 }
 .contact-paragraph {
   width: 95%;
@@ -94,9 +97,12 @@ span {
 }
 .bottom-nav {
   display: flex;
+  display: inline-block;
   border-top: 1px solid lightgrey;
-  padding: 25px 0;
+  padding-top: 25px;
+  padding-left: 0;
   margin-top: 25px;
+  margin-bottom: 0;
   justify-content: space-between;
 }
 .bottom-links {
@@ -105,6 +111,10 @@ span {
 .student-name-bottom, 
 .back-to-top {
   display: inline-block;
+}
+.back-to-top {
+  margin: 0;
+  text-align: right;
 }
 
 
