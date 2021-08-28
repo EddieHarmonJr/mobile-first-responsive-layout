@@ -27,7 +27,6 @@ a:visited {
   flex-direction: column;
   text-align: center;
 }
-
 .student-photo {
   width: 55%;
   margin: auto;
@@ -154,6 +153,7 @@ span {
     display: flex;
     flex-direction: row;
   }
+  /* I DON'T UNDERSTAND WHAT'S HAPPENING HERE! WHY CAN'T THE COLOR CHANGE? */
   .top-links {
     background-color: whitesmoke;
   }
@@ -189,26 +189,46 @@ span {
 
 
 /* ================DESKTOP===================== */
-
 @media (min-width: 1024px) {
+  header,
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  /* WHY CAN'T I CHANGE THE COLOR? */
+  .top-links {
+    background-color: whitesmoke;
+    display: inline;
+  }
+  
+}
+
+
+
+
+/* @media (min-width: 1024px) {
   .student-name,
   .main-nav {
     display: flex;
     flex-direction: row;
   }
+
   .student-name {
     margin-bottom: 0;
   }
+
   .main-nav {
     margin-top: 0;
-    /* WHY DOES THIS WORK INCORRECTLY?
-    justify-content: right; */
+    WHY DOES THIS WORK INCORRECTLY? 
+    justify-content: right;
   }
 
   .student-photo,
   .student-intro {
-    /* NOTHING I AM ATTEMPTING IS WORKING
+
+    NOTHING I AM ATTEMPTING IS WORKING
     display: flex;
-    flex-direction: row; */
+    flex-direction: row; 
   }
-}
+  
+}  */
