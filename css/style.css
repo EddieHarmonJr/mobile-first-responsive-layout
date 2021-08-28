@@ -195,12 +195,18 @@ span {
     display: flex;
     flex-direction: row;
   }
-  /* WHY CAN'T I CHANGE THE COLOR? */
+  /* WHY CAN'T I CHANGE THE COLOR? IS IT SOMETHING IN THE CASCADE?*/
   .top-links {
     background-color: whitesmoke;
     display: inline;
   }
-  
+  .bottom-nav {
+    margin-bottom: 25px;
+  }
+  footer {
+    padding: 50px;
+    padding: 50px;
+  }
 }
 
 
