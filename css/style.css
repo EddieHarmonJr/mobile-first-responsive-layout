@@ -200,6 +200,9 @@ span {
     background-color: whitesmoke;
     display: inline;
   }
+  .col {
+    width: 30%;
+  }
   .bottom-nav {
     margin-bottom: 25px;
   }
