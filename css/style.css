@@ -150,6 +150,16 @@ span {
   }
   .student-photo {
     order: 1;
+    width: 40%;
+    margin-right: 25px;
+    margin-bottom: 50px;
+  }
+  .student-intro {
+    width: 45%;
+    margin-top: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: left;
   }
   /* I DON'T UNDERSTAND WHAT'S HAPPENING HERE! WHY CAN'T THE COLOR CHANGE? */
   .main-nav ul li {
@@ -170,6 +180,11 @@ span {
     /* IF I HAVE CREATED ENOUGH SPACE FOR A SECOND COLUMN, AND I CHANGE THE DIRECTION TO ROW, WHY DOES IT REMAIN IN COLUMN?  */
     /* display: inline-block; */
     /* flex-grow: 1; */
+  }
+  .contact-paragraph {
+    width: 95%;
+    padding-left: 150px;
+    padding-right: 130px;
   }
   .bottom-nav {
     display: flex;
