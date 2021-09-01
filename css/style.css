@@ -212,11 +212,24 @@ span {
   .main-nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+  }
+  .student-name {
+    margin-left: 40px;
   }
   /* WHY CAN'T I CHANGE THE COLOR? IS IT SOMETHING IN THE CASCADE?*/
   .top-links {
     background-color: whitesmoke;
     display: inline;
+    /* margin-left: 75px; */
+  }
+  .student-intro {
+    margin-left: 30px;
+    margin-right: 15px;
+  }
+  .portfolio-section {
+    /* padding-left: 75px;
+    padding-right: 75px; */
   }
   #portfolio {
     height: 27px;
@@ -225,6 +238,10 @@ span {
   }
   .col {
     width: 30%;
+  }
+  .contact-paragraph {
+    padding-left: 275px;
+    padding-right: 250px;
   }
   .bottom-nav {
     margin-bottom: 25px;
