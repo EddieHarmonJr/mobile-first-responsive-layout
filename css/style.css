@@ -131,6 +131,7 @@ span {
   
   .student-name {
     display: inline-block;
+    margin-bottom: 0;
   }
   /* sets nav links in row direction */
   .main-nav ul{
