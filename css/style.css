@@ -122,51 +122,51 @@ span {
 
 
 
-
-
-
-
-
-
-
 /* =============MEDIA QUERIES=============== */
 
 
 /* ================TABLET====================== */
 
 @media (min-width: 768px) {
-  header {
-    display: flex;
-  }
+  
   .student-name {
     display: inline-block;
+  }
+  /* sets nav links in row direction */
+  .main-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .intro {
+    flex-direction: row;
   }
   /* WHY ISN'T THIS ALLOWING ME TO PLACE THEM SIDE BY SIDE? */
   .student-photo,
   .student-intro {
-    /* display: inline-block; */
+    display: inline-block;
   }
   .student-photo {
     order: 1;
   }
-  .main-nav {
-    display: flex;
-    flex-direction: row;
-  }
   /* I DON'T UNDERSTAND WHAT'S HAPPENING HERE! WHY CAN'T THE COLOR CHANGE? */
-  .top-links {
+  .main-nav ul li {
     background-color: whitesmoke;
+  }
+  #portfolio {
+    display: block;
   }
   .portfolio-section {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     flex-wrap: wrap;
   }
   .col {
     width: 50%;
     /* IF I HAVE CREATED ENOUGH SPACE FOR A SECOND COLUMN, AND I CHANGE THE DIRECTION TO ROW, WHY DOES IT REMAIN IN COLUMN?  */
-    /* display: inline-block;
-    flex-grow: 1; */
+    /* display: inline-block; */
+    /* flex-grow: 1; */
   }
   .bottom-nav {
     display: flex;
