@@ -218,6 +218,11 @@ span {
     background-color: whitesmoke;
     display: inline;
   }
+  #portfolio {
+    height: 27px;
+    margin-left: 400px;
+    margin-right: 300px;
+  }
   .col {
     width: 30%;
   }
