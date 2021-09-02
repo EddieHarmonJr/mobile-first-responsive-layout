@@ -127,7 +127,7 @@ span {
 
 /* ================TABLET====================== */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   
   .student-name {
     display: inline-block;
@@ -207,7 +207,7 @@ span {
 
 
 /* ================DESKTOP===================== */
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   header,
   .main-nav {
     display: flex;
@@ -232,8 +232,9 @@ span {
     /* padding-right: 75px; */
   }
   #portfolio {
+    flex-basis: 100%;
     height: 27px;
-    margin-left: 400px;
+    margin-left: 150px;
     margin-right: 300px;
   }
   .col {
