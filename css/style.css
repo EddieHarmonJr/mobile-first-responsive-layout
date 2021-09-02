@@ -2,17 +2,14 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-/* REMOVES BULLET POINTS FROM UNORDERED LIST ITEMS */
 ul {
   list-style-type: none;
 }
-/* REMOVES UNDERLINE FROM LINKS */
 a:link {
   text-decoration: none;
 }
-/* REMOVES COLOR FROM VISITED LINKS */
 a:visited {
   color: black;
 }
@@ -38,7 +35,7 @@ a:visited {
 nav {
   margin-bottom: 25px;
 }
-.main-nav, 
+.main-nav,
 header {
   display: flex;
   flex-direction: column;
@@ -51,14 +48,13 @@ header {
   padding: 10px;
   margin-bottom: 5px;
   margin-right: 25px;
-  /* margin-left: 16px; */
   text-align: center;
 }
 #portfolio,
 #contact {
   text-align: center;
 }
-.portfolio-section{
+.portfolio-section {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -72,7 +68,8 @@ header {
 img {
   margin: 5%;
 }
-p, h3 {
+p,
+h3 {
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -80,7 +77,7 @@ p, h3 {
 p {
   margin-top: 0px;
 }
-.contact, 
+.contact,
 footer {
   display: flex;
   flex-direction: column;
@@ -107,7 +104,7 @@ span {
 .bottom-links {
   display: none;
 }
-.student-name-bottom, 
+.student-name-bottom,
 .back-to-top {
   display: inline-block;
 }
@@ -116,34 +113,23 @@ span {
   text-align: right;
 }
 
-
-
-
-
-
-
 /* =============MEDIA QUERIES=============== */
-
 
 /* ================TABLET====================== */
 
 @media screen and (min-width: 768px) {
-  
   .student-name {
     display: inline-block;
     margin-bottom: 0;
   }
-  /* sets nav links in row direction */
-  .main-nav ul{
+  .main-nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-
   .intro {
     flex-direction: row;
   }
-  /* WHY ISN'T THIS ALLOWING ME TO PLACE THEM SIDE BY SIDE? */
   .student-photo,
   .student-intro {
     display: inline-block;
@@ -161,7 +147,6 @@ span {
     margin-left: 15px;
     text-align: left;
   }
-  /* I DON'T UNDERSTAND WHAT'S HAPPENING HERE! WHY CAN'T THE COLOR CHANGE? */
   .main-nav ul li {
     background-color: whitesmoke;
   }
@@ -177,9 +162,6 @@ span {
   }
   .col {
     width: 50%;
-    /* IF I HAVE CREATED ENOUGH SPACE FOR A SECOND COLUMN, AND I CHANGE THE DIRECTION TO ROW, WHY DOES IT REMAIN IN COLUMN?  */
-    /* display: inline-block; */
-    /* flex-grow: 1; */
   }
   .contact-paragraph {
     width: 95%;
@@ -188,23 +170,18 @@ span {
   }
   .bottom-nav {
     display: flex;
-    /* flex-wrap: wrap;
-    justify-content: space-around; */
   }
   .student-name-bottom {
     margin-right: auto;
   }
-  /* WHY DID I HAVE TO MANUALLY CREATE SPACE WITH PADDING AND SPACE-AROUND DID NOT WORK? */
   .bottom-links {
     display: inline;
     padding: 0 10px;
-    /* justify-content: space-around; */
   }
   .back-to-top {
     display: none;
   }
 }
-
 
 /* ================DESKTOP===================== */
 @media screen and (min-width: 1024px) {
@@ -217,11 +194,9 @@ span {
   .student-name {
     margin-left: 40px;
   }
-  /* WHY CAN'T I CHANGE THE COLOR? IS IT SOMETHING IN THE CASCADE?*/
   .top-links {
     background-color: whitesmoke;
     display: inline;
-    /* margin-left: 75px; */
   }
   .student-intro {
     margin-left: 30px;
@@ -229,7 +204,6 @@ span {
   }
   .portfolio-section {
     padding-left: 75px;
-    /* padding-right: 75px; */
   }
   #portfolio {
     flex-basis: 100%;
@@ -252,33 +226,3 @@ span {
     padding: 50px;
   }
 }
-
-
-
-
-/* @media (min-width: 1024px) {
-  .student-name,
-  .main-nav {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .student-name {
-    margin-bottom: 0;
-  }
-
-  .main-nav {
-    margin-top: 0;
-    WHY DOES THIS WORK INCORRECTLY? 
-    justify-content: right;
-  }
-
-  .student-photo,
-  .student-intro {
-
-    NOTHING I AM ATTEMPTING IS WORKING
-    display: flex;
-    flex-direction: row; 
-  }
-  
-}  */
