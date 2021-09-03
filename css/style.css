@@ -98,18 +98,21 @@ span {
   padding-top: 25px;
   padding-left: 0;
   margin-top: 25px;
-  margin-bottom: 0;
+  margin-bottom: 25px;
   justify-content: space-between;
 }
 .bottom-links {
   display: none;
+}
+.student-name-bottom {
+  margin-left: 10px;
 }
 .student-name-bottom,
 .back-to-top {
   display: inline-block;
 }
 .back-to-top {
-  margin: 0;
+  margin-left: 135px;
   text-align: right;
 }
 
