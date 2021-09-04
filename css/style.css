@@ -93,7 +93,7 @@ span {
 }
 .bottom-nav {
   display: flex;
-  display: inline-block;
+  /* display: inline-block; */
   border-top: 1px solid lightgrey;
   padding-top: 25px;
   padding-left: 0;
@@ -112,7 +112,8 @@ span {
   display: inline-block;
 }
 .back-to-top {
-  margin-left: 135px;
+  margin-left: 165px;
+  margin-right: 10px;
   text-align: right;
 }
 
